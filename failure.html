@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Confirmare</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <style type="text/css">
+        body{
+            margin: 50px 15px 0;
+            font-family: 'Open Sans', sans-serif;
+        }
+        h1{
+            color: #f05454;
+            font-weight: bold;
+            padding-bottom: 15px;
+        }
+        p{
+            color: #666;
+            font-size: 16px;
+        }
+        i{
+            color: #f05454;
+            width: 60px;
+            height: 60px;
+            border-radius: 60px;
+            background: #f2f2f2;
+            display: inline-block;
+            line-height: 62px;
+            font-size: 28px;
+        }
+
+        .btn-warning{
+          margin: 4rem;
+        }
+
+    </style>
+    </head>
+    <body data-new-gr-c-s-check-loaded="14.990.0" data-gr-ext-installed="">
+    <div class="text-center">
+        <i class="icon-box"><span class="glyphicon glyphicon-remove"></span></i>
+        <h1>Failure!</h1>
+        <p>Your attempt failed.</p>
+        <p>Please try again!</p>
+    </div>
+
+    <form class="text-center" action="/failure" method="post">
+      <button class="btn btn-lg btn-warning" type="submit" name="button">Try again</button>
+
+    </form>
+
+  </body>
+</html>
